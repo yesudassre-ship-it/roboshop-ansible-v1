@@ -1,5 +1,5 @@
 - name: create ec2 instance 
-  host: localhost
+  hosts: local
   connection: local
   vars: 
     instance: ["mangodb", "redis", "mysql", "rabbitmq"]
